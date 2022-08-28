@@ -62,6 +62,14 @@ require('lspconfig').pyright.setup{
     capabilities=capabilities
 }
 
+require('lspconfig').denols.setup{
+    on_attach = on_attach,
+    capabilities=capabilities
+}
+vim.g.markdown_fenced_languages = {
+  "ts=typescript"
+}
+
 require'lspconfig'.rust_analyzer.setup{
     on_attach = on_attach,
     capabilities=capabilities
