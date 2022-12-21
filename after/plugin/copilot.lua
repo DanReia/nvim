@@ -6,8 +6,9 @@ vim.g.copilot_filetypes = {
 ["javascript"] = true,
 ["typescript"] = true,
 ["lua"] = false,
-["rust"] = true,
+["rust"] = false,
 ["go"] = true,
 ["python"] = true,
+["tex"] = false,
 }
 vim.g.copilot_assume_mapped = true
