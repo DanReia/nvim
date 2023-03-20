@@ -43,4 +43,6 @@ return require('packer').startup(function(use)
     use {'numToStr/Comment.nvim'}
 
     use {'tpope/vim-fugitive'}
+
+    use {'github/copilot.vim'}
 end)
